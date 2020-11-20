@@ -14,7 +14,7 @@ var game = {
             game.count = a;
             $('#data').append('<h1 style="font-size: 20pt; font-weight: bold;">Isi semua data</h1>');
             for (let i = 0; i < a; i++) {
-                $('#data').append('<input type="text" class="text-center h-10 my-2" style="width: 300px;" id="'+i+'"><br>');
+                $('#data').append('<input type="number" class="text-center h-10 my-2" style="width: 300px;" id="'+i+'"><br>');
             }
             game.hitung()
         });
